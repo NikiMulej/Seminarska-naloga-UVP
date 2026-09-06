@@ -3,7 +3,7 @@ import csv
 import os
 
 def razcleni_datoteko_zlata(pot_do_datoteke, leto, mesec):
-    #Prebere shranjeno HTML datoteko in izracuna mesecno povprecje cene zlata
+    #Prebere shranjeno HTML datoteko in izračuna mesečno povprečje cene zlata
     with open(pot_do_datoteke, "r", encoding="utf-8") as f:
         vsebina = f.read()
 
@@ -43,7 +43,7 @@ def razcleni_datoteko_zlata(pot_do_datoteke, leto, mesec):
 
 
 def obdelaj_vse_datoteke_zlata():
-    #Preide cez vse shranjene HTML datoteke zlata in jih zbere v en CSV
+    #Preide čez vse shranjene HTML datoteke zlata in jih zbere v en CSV
     vse_vrstice = []
     mapa = "surovi_podatki"
 

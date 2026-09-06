@@ -1,11 +1,12 @@
-valuta,drzava,celina
-USD,Zdruzene drzave Amerike,Severna Amerika
-GBP,Zdruzeno kraljestvo,Evropa
-CHF,Svica,Evropa
-JPY,Japonska,Azija
-AUD,Avstralija,Oceanija
-CAD,Kanada,Severna Amerika
-CNY,Kitajska,Azija
-TRY,Turcija,Azija
-ZAR,Juzna Afrika,Afrika
-BRL,Brazilija,Juzna Amerika
+valuta,drzava,celina,ime_valute,prebivalstvo
+EUR,Evropska unija (evroobmocje),Evropa,Evro,
+USD,Zdruzene drzave Amerike,Severna Amerika,Ameriski dolar,335
+GBP,Zdruzeno kraljestvo,Evropa,Britanski funt,68
+CHF,Svica,Evropa,Svicarski frank,9
+JPY,Japonska,Azija,Japonski jen,124
+AUD,Avstralija,Oceanija,Avstralski dolar,26
+CAD,Kanada,Severna Amerika,Kanadski dolar,39
+CNY,Kitajska,Azija,Kitajski juan,1410
+TRY,Turcija,Azija,Turska lira,85
+ZAR,Juzna Afrika,Afrika,Juznoafriski rand,60
+BRL,Brazilija,Juzna Amerika,Brazilski real,216

@@ -7,7 +7,7 @@ MESCI_KRATICE = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
 MESEC_STEVILKA = {ime: i + 1 for i, ime in enumerate(MESCI_KRATICE)}
 
 def razcleni_datoteko(pot_do_datoteke, valuta, leto):
-    #Prebere shranjeno HTML datoteko in izlusci mesecna povprecja
+    #Prebere shranjeno HTML datoteko in izlušči mesečna povprečja
     with open(pot_do_datoteke, "r", encoding="utf-8") as f:
         vsebina = f.read()
 

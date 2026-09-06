@@ -5,7 +5,7 @@ LETA = range(2016, 2026)
 MESECI = range(1, 13)
 
 def pridobi_stran_zlata(leto, mesec):
-    #Poslje zahtevek na stran za dano leto/mesec in shrani surov HTML odgovor
+    #Pošlje zahtevek na stran za dano leto/mesec in shrani surov HTML odgovor
     mesec_str = f"{mesec:02d}"
     url = f"https://goldpricetracker.com/history/{leto}-{mesec_str}/"
     odziv = requests.get(url, headers={"User-Agent": "Mozilla/5.0"})
@@ -18,7 +18,7 @@ def pridobi_stran_zlata(leto, mesec):
 
 
 def pridobi_vse_strani_zlata():
-    #Pridobi in shrani surove HTML strani za ceno zlata, za vsa leta in mesece
+    #Pridobi in shrani surove HTML-je, strani za ceno zlata za vsa leta in mesece
     for leto in LETA:
         for mesec in MESECI:
             print(f"Pridobivam zlato za {leto}-{mesec:02d}...")
